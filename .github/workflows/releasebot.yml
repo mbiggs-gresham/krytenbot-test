@@ -3,10 +3,10 @@ name: Releasebot
 on:
   pull_request:
     branches:
-      - releasebot-test
+      - main
   push:
     branches:
-      - releasebot-test
+      - main
   issue_comment:
     types:
       - created
