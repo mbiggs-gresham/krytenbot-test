@@ -84,7 +84,6 @@
     "cypress-fail-on-console-error": "^5.0.0",
     "cypress-terminal-report": "^6.0.0",
     "cypress-vite": "^1.4.2",
-    "eslint": "^9.6.0",
     "eslint-plugin-cypress": "^3.3.0",
     "eslint-plugin-storybook": "^0.8.0",
     "gh-pages": "^6.0.0",
