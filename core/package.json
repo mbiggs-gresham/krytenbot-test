@@ -50,7 +50,6 @@
     "@babel/preset-env": "^7.22.7",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
-    "@cypress/code-coverage": "^3.12.11",
     "@cypress/vite-dev-server": "^5.0.6",
     "@emotion/babel-plugin": "^11.11.0",
     "@emotion/react": "^11.7.1",
