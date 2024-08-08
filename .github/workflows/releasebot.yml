@@ -27,8 +27,3 @@ jobs:
         uses: mbiggs-gresham/releasebot@dev
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          milliseconds: 1000
-
-      - name: Print Output
-        id: output
-        run: echo "${{ steps.releasebot.outputs.time }}"
