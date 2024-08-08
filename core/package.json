@@ -22,7 +22,6 @@
     "@hello-pangea/dnd": "^16.2.0",
     "autosuggest-highlight": "^3.3.4",
     "dayjs": "^1.11.9",
-    "loglevel": "^1.8.1",
     "nanoid": "^5.0.1",
     "react-device-detect": "^2.2.2",
     "react-markdown": "^9.0.1",
