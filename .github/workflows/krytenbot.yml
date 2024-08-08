@@ -1,4 +1,4 @@
-name: Releasebot
+name: Krytenbot
 
 on:
   pull_request:
@@ -17,13 +17,13 @@ permissions:
   pull-requests: write
 
 jobs:
-  releasebot:
-    name: Releasebot
+  krytenbot:
+    name: Krytenbot
     runs-on: ubuntu-latest
 
     steps:
-      - name: Releasebot
-        id: Releasebot
-        uses: mbiggs-gresham/releasebot@dev
+      - name: Krytenbot
+        id: Krytenbot
+        uses: mbiggs-gresham/krytenbot@dev
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
