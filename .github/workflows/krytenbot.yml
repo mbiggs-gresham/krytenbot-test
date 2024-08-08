@@ -26,6 +26,6 @@ jobs:
         id: Krytenbot
         uses: mbiggs-gresham/krytenbot@dev
         with:
-	  app_id: ${{ secrets.APP_ID }}
-	  private_key: ${{ secrets.PRIVATE_KEY }}
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
           token: ${{ secrets.GITHUB_TOKEN }}
