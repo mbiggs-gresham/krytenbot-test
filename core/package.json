@@ -65,7 +65,6 @@
     "@mui/system": "^5.15.0",
     "@mui/x-charts": "^7.1.0",
     "@mui/x-date-pickers-pro": "^7.1.0",
-    "@mui/x-license": "^7.0.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
