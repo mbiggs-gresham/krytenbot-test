@@ -22,7 +22,6 @@
     "@hello-pangea/dnd": "^16.2.0",
     "autosuggest-highlight": "^3.3.4",
     "dayjs": "^1.11.9",
-    "nanoid": "^5.0.1",
     "react-markdown": "^9.0.1",
     "react-resizable": "^3.0.5",
     "rehype-raw": "^7.0.0",
