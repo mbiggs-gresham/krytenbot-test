@@ -2,6 +2,8 @@ name: Krytenbot
 
 on:
   pull_request:
+    types:
+      - closed
     branches:
       - main
   push:
@@ -20,12 +22,10 @@ jobs:
   krytenbot:
     name: Krytenbot
     runs-on: ubuntu-latest
-
+    if: (github.event_name == 'pull_request' && github.event.pull_request.merged) || github.event_name == 'push' || github.event_name == 'issue_comment'
     steps:
       - name: Krytenbot
-        id: Krytenbot
         uses: mbiggs-gresham/krytenbot@dev
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
-          token: ${{ secrets.GITHUB_TOKEN }}
