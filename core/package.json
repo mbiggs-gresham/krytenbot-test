@@ -71,7 +71,6 @@
     "@vitejs/plugin-react": "^4.2.0",
     "cypress": "^13.0.0",
     "cypress-fail-on-console-error": "^5.0.0",
-    "cypress-terminal-report": "^6.0.0",
     "eslint-plugin-cypress": "^3.3.0",
     "mocha": "^10.2.0",
     "nyc": "^17.0.0",
