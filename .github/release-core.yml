@@ -1,0 +1,12 @@
+changelog:
+  categories:
+    - title: core
+      labels:
+        - 'core'
+      exclude:
+        labels:
+          - 'dependencies'
+    - title: dependencies
+      labels:
+        - 'core'
+        - 'dependencies'
