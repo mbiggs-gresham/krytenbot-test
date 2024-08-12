@@ -67,7 +67,6 @@
     "@types/hast": "^3.0.3",
     "@types/react": "^18.2.0",
     "@types/react-resizable": "^3.0.5",
-    "@vitejs/plugin-react": "^4.2.0",
     "cypress": "^13.0.0",
     "cypress-fail-on-console-error": "^5.0.0",
     "eslint-plugin-cypress": "^3.3.0",
