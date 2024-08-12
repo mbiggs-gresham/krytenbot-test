@@ -1,0 +1,13 @@
+changelog:
+  categories:
+    - title: grid
+      labels:
+        - 'grid'
+      exclude:
+        labels:
+          - 'release'
+          - 'dependencies'
+    - title: dependencies
+      labels:
+        - 'grid'
+        - 'dependencies'
