@@ -5,6 +5,7 @@ changelog:
         - 'core'
       exclude:
         labels:
+          - 'release'
           - 'dependencies'
     - title: dependencies
       labels:
