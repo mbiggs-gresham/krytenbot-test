@@ -9,5 +9,7 @@ changelog:
           - 'dependencies'
     - title: dependencies
       labels:
-        - 'grid'
         - 'dependencies'
+      exclude:
+        labels:
+          - 'core'
