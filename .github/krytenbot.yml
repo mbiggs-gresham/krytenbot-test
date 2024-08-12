@@ -1,0 +1,9 @@
+projects:
+  core:
+    paths:
+      - 'core/**'
+    package-ecosystem: 'npm'
+  grid:
+    paths:
+      - 'grid/**'
+    package-ecosystem: 'npm'
