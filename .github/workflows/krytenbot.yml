@@ -30,7 +30,7 @@ jobs:
     if: (github.event_name == 'pull_request' && github.event.pull_request.merged) || github.event_name == 'push' || github.event_name == 'issue_comment'
     steps:
       - name: Krytenbot
-        uses: mbiggs-gresham/krytenbot@dev
+        uses: mbiggs-gresham/krytenbot@fix_tests
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
